@@ -1,5 +1,6 @@
 import { PresentationCard } from "@/components/own/presentationCard"
 import { Box, Card, Heading, Text} from "@chakra-ui/react"
+import { FooterComponent } from "../footer/footer.template"
 // import { FooterComponent } from "../footer/footer.template"
 
 export const HomePage = () => {
@@ -67,9 +68,9 @@ export const HomePage = () => {
                 <PresentationCard body={bodyExample} button="Detalles" goTo="cursos" title="Curso"/>
                 <PresentationCard body={bodyExample} button="Detalles" goTo="cursos" title="Curso"/>
             </Box>
-        {/* <Box>
+        <Box>
             <FooterComponent />
-        </Box> */}
+        </Box>
         </Box>
     )
 }
